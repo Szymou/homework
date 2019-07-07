@@ -1,0 +1,92 @@
+
+/******************** 头部 *********************/
+.header{
+	width: 100%;
+	height: 300px;
+	background-color: #83C6D2;	
+}
+/*头像*/
+.photo_d{
+	width: 140px;
+	height: 180px;
+	background-color: #558ED5;
+	margin-top: 50px;
+	margin-left: 100px;
+	float: left;
+}
+/*姓名*/
+.name_d{
+	width: 600px;
+	height: 90px;
+	background-color: #B6D9DB;
+	float: left;
+	margin-top: 90px;
+	position: relative;
+	font-size: 2.6em;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+	border-radius:0 50px 50px 0; 
+	/*font-weight: bold;*/
+}
+/*职业意向*/
+.want_d{
+	width: 200px;
+	height: 30px;
+	background-color: #5C6260;
+	position: absolute;
+	top: 75px;
+	left: 200px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+
+/******************* 导航栏 **********************/
+.nav{
+	height: 50px;
+	width: 100%;
+	background-color: red;
+}
+.nav_first{
+	line-height: 50px;
+}
+.nav_first>li{
+	background-color: grey;
+	cursor: pointer;
+	width: 24.6%;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	/*transition: all .3s;*/
+	z-index: 1;
+}
+.nav_first>li:hover~ul{
+	background-color: orange;
+}
+.nav_first>li ul{
+	border-bottom: 1px solid yellow;
+	width: 100%;
+	display: none;	
+	position: absolute;
+	/*float: left;*/
+}
+.nav_first>li li{
+	border-bottom: 1px solid yellow;
+	background-color: grey;
+	opacity: 0.7;
+}
+.nav_first>li li:first-child{
+	border-top: 1px solid yellow;
+}
+.nav_first>li:hover ul{
+	display: block;	
+}
+.nav_first>li li:hover{
+	background-color: red;
+	opacity: 0.9;
+}
+
+

@@ -1,0 +1,154 @@
+
+/********************* 内容块 ***********************/
+.content{
+	width: 100%;
+	min-height: 800px;
+	background-color: yellow;
+}
+/*详细信息*/
+.details_info{
+	width: 650px;
+	min-height: 800px;
+	background-color: #fff;
+	float: left;
+	position: relative;
+}
+.self_eva,.school_story,.skill,.edu{
+	width: 420px;
+	height: 35px;
+	background-color: #83C6D2;
+	border-radius: 0 25px 25px 0;
+	position: absolute;
+	color: white;
+	font-size: 1.2em;
+	line-height: 35px;
+	font-weight: bold;
+	padding-left: 15px;
+}
+.self_eva{
+	left: 0;
+	top: 25px;
+}
+.school_story{
+	left: 0;
+	top: 210px;
+}
+.skill{
+	left: 0;
+	top: 480px;
+}
+.edu{
+	left: 0;
+	top: 625px;
+}
+
+.self_eva+p{
+	width: 36em;
+	position: absolute;
+	top: 65px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #7E7E7E;
+	padding-left:1em;
+	line-height: 1.6em;
+	text-indent: 2em;
+	text-align: justify;/*两端对齐*/
+	/*overflow:hidden;*/
+	/*text-overflow: ellipsis; /*加省略号*/
+    /*text-justify: inter-character;*/
+}
+
+.school_story+p{
+	width: 36em;
+	position: absolute;
+	top: 250px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #7E7E7E;
+	padding-left:1em;
+	line-height: 1.6em;
+	text-indent: 2em;
+	text-align: justify;/*两端对齐*/
+	/*overflow:hidden;*/
+	/*text-overflow: ellipsis; /*加省略号*/
+    /*text-justify: inter-character;*/
+}
+
+.skill+p{
+	width: 36em;
+	position: absolute;
+	top: 520px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #7E7E7E;
+	padding-left:1em;
+	line-height: 1.6em;
+	text-indent: 2em;
+	text-align: justify;/*两端对齐*/
+	/*overflow:hidden;*/
+	/*text-overflow: ellipsis; /*加省略号*/
+    /*text-justify: inter-character;*/
+}
+
+
+.edu+p{
+	width: 36em;
+	position: absolute;
+	top: 665px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #7E7E7E;
+	padding-left:1em;
+	line-height: 1.6em;
+	text-indent: 2em;
+	text-align: justify;/*两端对齐*/
+	/*overflow:hidden;*/
+	/*text-overflow: ellipsis; /*加省略号*/
+    /*text-justify: inter-character;*/
+}
+
+
+
+/*基本信息*/
+.general_info{
+	width: 310px;
+	height: 800px;
+	background-color: #F6F6F6;
+	float: right;
+	/*position: relative;*/
+
+}
+.base_title,.all_skill_title{
+	margin: 30px auto 0;
+	width: 250px;
+	height: 40px;
+	border: 4px solid #83C8D2;
+	line-height: 40px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #83C6D2;
+}
+.base_info,.all_skill{
+	margin: 5px auto 50px;
+	width: 240px;
+	font-size: 1.1em;
+	color: #7E7E7E;
+	line-height: 1.7em;
+}
+.c_box{
+	width: 180px;
+	height: 8px;
+	border: 3px solid #83C8D2;
+	border-radius: 10px;
+	float: right;
+	margin-top: 7px;
+	/* Safari 5.1 - 6.0 */
+	background: -webkit-linear-gradient(left, #83C8D2 140px, white 40px);
+	/* Opera 11.1 - 12.0 */
+	background: -o-linear-gradient(left, #83C8D2 140px, white 40px);
+	/* Firefox 3.6 - 15 */
+	background: -moz-linear-gradient(left, #83C8D2 140px, white 40px);
+	/* 标准的语法 */
+	background: linear-gradient(left, #83C8D2 140px, white 40px);
+}
